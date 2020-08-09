@@ -69,11 +69,15 @@ Para poder modificar, corregir, recomendar o cualquier otra cosa, para
 ello seguir los siguientes pasos y guiarse de la siguiente captura de
 pantalla:
 
-![](fig/recomendaciones.png) 1. Crear una cuenta de GitHub (en la parte
-superior derecha) 1. Ir al [link](https://github.com/TJhon/r-curso) del
-curso. - Dar click en `Issues`, para problemas con el curso o
-recomendaciones. - `Pull requests` para modificaciones dentro del
-repositorio
+![](fig/recomendaciones.png)
+
+1.  Crear una cuenta de GitHub (en la parte superior derecha)
+
+2.  Ir al [link](https://github.com/TJhon/r-curso) del curso.
+
+-   Dar click en `Issues`, para problemas con el curso o
+    recomendaciones.
+-   `Pull requests` para modificaciones dentro del repositorio
 
 Indice
 ======
@@ -101,6 +105,8 @@ repositorio.
     ## |   +-- 00-rmarkdown.docx
     ## |   +-- 00-rmarkdown.pdf
     ## |   +-- 00-rmarkdown.rmd
+    ## |   +-- 00tidyverse.md
+    ## |   +-- 00tidyverse.rmd
     ## |   +-- 01 - primer.rmd
     ## |   +-- fig
     ## |   |   +-- 00configr.jpg
