@@ -1,17 +1,38 @@
-# Indice 
+Indice tentativo
+================
 
-## Introduccion a Rstudio 
+Este archivo recojera lo que se me ocurra para introducirlo al
+repositorio. Por el momento puede ser general y muy poco informativos,
+esto a causa de la finalidad de este repositorio es la perdida de miedo
+al lenguaje de programacion y al uso de intrumentos, los cuales estan
+disponibles para otros lenguajes de programacion.
 
-## Introduccion a R-base
+Por otra parte, este repositorio tratara de enfocarse en el uso y manejo
+de datos asi como la visualizacion (y puede que talvez algo de
+estimaciones estadisticas y econometricas) y comunicacion de este, por
+lo que se omite partes importantes de los otros usos que puede tener
+este lenguaje de programacion.
 
-## Introduccion a Tidyverse 
+General
+-------
 
-### Variables 
+-   Introduccion a Rstudio
 
-### Importar
+-   Introduccion a R-base
 
-### Visualizar (I)
+-   Introduccion a Tidyverse
 
-### Manipulacion  
+-   Variables y objetos
 
-### `Tidy` Data 
+Tidyverse
+---------
+
+El concepto de `tidy data`, o datos limpios los cuales ya no requieren
+mayor manipulacion y poder pasar al modelamiento y/o visualizacion de
+resultados.
+
+-   Importar y exportar datos
+
+-   Visualizar (I)
+
+-   Manipulacion
