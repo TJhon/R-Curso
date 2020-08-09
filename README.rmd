@@ -4,9 +4,24 @@ output: github_document
 
 # R-Curso
 
-Fecha actualizada `r Sys.Date()`
+Fecha actualizada: `r Sys.Date()`
 
-Algunos recursos para el aprendizaje de R
+Descripcion: Algunos recursos para el aprendizaje de R
+
+--- 
+
+Este es un repositorio para aprender algo de R y recomendaciones que encontre a lo largo del camino del aprendizaje de este lenguaje de programacion. 
+
+Este curso esta un poco sesgado al uso de windows para todos los procesos, aunque muchos de estos no difieren mucho de Linux y Mac. 
+
+Lo videos relacionados esta presentes en: 
+
+- [Vision general y usos](https://www.youtube.com/playlist?list=PLDVZfi7ztrg5RU6xmgceV4MJ9YlE7oele)
+- [Solo R](https://www.youtube.com/playlist?list=PLDVZfi7ztrg6Ob825jQ6AEYGUceKHg_fY)
+
+
+
+
 
 ## Antes de iniciar - Instalaciones Mediante `chocolatey`
 
@@ -60,3 +75,13 @@ Para poder modificar, corregir, recomendar o cualquier otra cosa, para ello segu
 # Indice 
 
 Para una vision general ir al [indice](https://github.com/TJhon/r-curso/blob/master/Indice.md)
+
+# Archivos
+
+Esta es la lista de archivos creados hasta la fecha de actualizacion, es proposito: es la simplificacion de busqueda de archivos dentro del repositorio.
+
+```{r}
+
+fs::dir_tree()
+```
+
