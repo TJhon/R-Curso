@@ -16,6 +16,8 @@ este lenguaje de programacion.
 General
 -------
 
+-   [x] Instalacion
+
 -   Introduccion a Rstudio
 
 -   Introduccion a R-base
