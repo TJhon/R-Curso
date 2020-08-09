@@ -77,7 +77,9 @@ Para poder modificar, corregir, recomendar o cualquier otra cosa, para
 ello seguir los siguientes pasos y guiarse de la siguiente captura de
 pantalla:
 
-![](fig/recomendaciones.png)
+    knitr::include_graphics("fig/recomendaciones.png")
+
+<img src="fig/recomendaciones.png" width="1920" />
 
 1.  Crear una cuenta de GitHub (en la parte superior derecha)
 
