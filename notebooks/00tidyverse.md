@@ -1,0 +1,128 @@
+tidyverse
+================
+
+Esta parte describe el porque mudar de `R-base` a `Tidyverse`, este
+ultimo tiene una filosofia la cual es que **tydi data** (datos ordenados
+o limpios), las cuales siguen las siguiente reglas interrelacionadas.
+
+1.  Cada variable debe tener su propia columna
+2.  Cada observacion deve tener su propia fila
+3.  Cada valor debe tener su propia celda
+
+Mi interpretacion de lo anterior, es que si se trabaja con variables de
+interes, la columnas de estas deben representar exactamente lo que
+requiere el modelo, esto ultimo sin poder recategorizarlas en grupos mas
+grandes.
+
+Para profundizar mas en `tidyverse` solo tiene que tener un diccionario
+de ingles-espanol y traducir, tal cual es la traduccion esa es su
+funcion.
+
+Tibbles
+=======
+
+Es un reemplazo para las bases de datos tradicionales de R, lo que
+diferencia de los clasicos `data.frames`:
+
+-   En base de datos, no reconoce `string` como `factores` (ayudando a
+    la limpieza de datos)
+-   Acepta nombres de columnas que en R no estaria permitido.
+-   La creacion de base de datos manualmente tambien esta permitido,
+    esto gracias a la funcion `tribble`
+-   Son mas rapidos que los `data.frames`
+-   Extraes columnas (no vectores) facilmente con `$`
+-   Tratamiento de datos mas sencilla
+
+Importar datos
+==============
+
+ReadR
+-----
+
+-   Lee base de datos 10 veces mas rapido que R-base
+-   Produce `tibbles`
+-   La existencia de varias maneras de escribir un numero (\[1,3\]
+    \[12.12\] \[12.1%\]), limita la existencia de estos, notandolos como
+    `string`, para ello este paquete complementa el analisis para
+    caracterizarlos como uno desee.
+
+Haven
+-----
+
+Y otros
+-------
+
+Tratamiento de datos
+====================
+
+Antes de todo
+-------------
+
+Para no perderse mucho en lo que se haga posteriormente, se necesita
+conocer al pipe `%>%`, el cual es un facilitador de funciones, la
+traduccion mia es:
+
+“Si se tiene un objeto, `%>%` ejecuta esta funcion con este objeto, y
+`%>%` con esta otra funcion”
+
+Para entenderlo usare paint, espero poder explicarme en un video.
+
+Filas columnas
+--------------
+
+-   Filter == filas
+-   Select == columnas
+
+Tipos de datos
+--------------
+
+-   Largos `pivot_longer`
+-   Anchos `pivot_wider`
+
+Separar - unir columnas
+-----------------------
+
+-   separate
+-   unite
+
+Valores perdidos, faltantes o no reconocidos
+--------------------------------------------
+
+Para este tipo de datos existe muchos tratamientos, por defecto existe
+la funcion de no incluir observaciones perdidas cuando se manipula los
+datos, pero tambien pueden ser de interes para el investigador por lo
+que existe para los 2 gustos.
+
+-   na\_drop
+-   complete
+
+La primera funcion encargada de eliminar las observaciones que contengan
+NA en algunas de las columnas o toda la base de datos (como uno lo
+especifique). La segunda funcion encargada de mantener los datos con
+observaciones `Na`
+
+Unir bases de datos
+-------------------
+
+Aqui la familia `join`
+
+Esta parte se omitira dar detalles por el momento
+
+Final o Inicio
+--------------
+
+Como se menciono al principio, la filosofia es de `tidy data` si uno ya
+tiene una porque molestarse haciendo otra?. Asi que se puede pasar
+directamente a la comunicacion de los datos. Si son graficos uno debe
+utilizar en la mayoria de casos `ggplot2` y si son reportes `rmarkdown`.
+
+-   Ggplot
+-   Rmarkdown
+
+------------------------------------------------------------------------
+
+Hasta aqui el block de Tydiverse, se conocera mas funciones pero para
+algo introductorio y motivacional es suficiente creo yo.
+
+Probablemente ahora me dirija a mi mismo como MOI, manias mias perdon de
+antemano si no les gusta.
